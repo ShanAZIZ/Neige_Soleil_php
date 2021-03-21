@@ -10,6 +10,9 @@
 			case 0:
 				require_once("dashboard.php");
 				break;
+			case 1:
+				require_once("gestion_clients.php");
+				break;
 			case 6:
 				$unControleur->cleanPhpSession();
 				header('Location: index.php?page=0');

@@ -17,6 +17,9 @@
         public function insert($tab){
             $this->unModele->insert($tab);
         }
+        public function update($tab, $where){
+            $this->unModele->update($tab, $where);
+        }
         public function delete($tab){
             $this->unModele->delete($tab);
         }

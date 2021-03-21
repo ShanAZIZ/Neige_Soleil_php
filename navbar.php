@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+          <a class="nav-link " href="index.php?page=0">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=2">Clients</a>
+          <a class="nav-link" href="index.php?page=1">Clients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?page=3">Produits</a>
+          <a class="nav-link" href="index.php?page=2">Produits</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="index.php?page=4">Transaction</a>
+          <a class="nav-link " href="index.php?page=3">Transaction</a>
         </li>
       </ul>
     </div>
